@@ -1,0 +1,7 @@
+name: devcon-node-dod-git
+services:
+  devcon-node-dod-git-dev:
+    image: mcr.microsoft.com/devcontainers/typescript-node:18-bookworm
+    container_name: devcon-node-dod-git-dev
+    hostname: devcon-node-dod-git-dev
+    tty: true
